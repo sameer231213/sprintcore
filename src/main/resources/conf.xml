@@ -6,7 +6,16 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Bean Definition -->
-    <bean id="student" class="com.springcore.student"></bean>
+    <bean id="student1" class="com.springcore.Student">
+        <property name="studentId" value="2334"/>
+        <property name="studentName" value="Sameer"/>
+        <property name="studentAddress" value="Ballia"/>
+    </bean>
+
+    <bean id="student2" class="com.springcore.Student">
+        <property name="studentId" value="2336"/>
+        <property name="studentName" value="Sam"/>
+        <property name="studentAddress" value="Mau"/>
+    </bean>
 
 </beans>

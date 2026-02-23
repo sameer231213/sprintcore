@@ -10,8 +10,9 @@ public class app {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("conf.xml");
 
-        student s = (student)  context.getBean("student");
-
-        s.display();
+        Student s = context.getBean("student1", Student.class);
+       Student s2= context.getBean("student2", Student.class);
+        System.out.println(s);
+        System.out.println(s2);
     }
 }
