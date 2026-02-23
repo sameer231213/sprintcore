@@ -8,7 +8,7 @@ public class Emp {
 
 
     private String name;
-    private List<String> phones;
+    private List<String>phones;
     private Set<String> address;
     private Map<String, String> courses;
     public Emp() {
