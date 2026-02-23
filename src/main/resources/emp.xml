@@ -23,6 +23,7 @@
             <value>Pune</value>
         </set>
     </property>
+
     <property name="courses">
         <map>
             <entry key="java" value="1month"/>
