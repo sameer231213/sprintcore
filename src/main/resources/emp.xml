@@ -6,7 +6,7 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="emp1" class="com.springcore.collection.Emp">
+    <bean id="emp1" class="collection.Emp">
            <property name="name" value="Sameer"/>
     <property name="phones">
         <list>
